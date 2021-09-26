@@ -1,0 +1,141 @@
+body{
+    overflow: auto;
+}
+
+.speak-container{
+    line-height: 1.4;
+}
+
+#start-recording-page .dlg-msg{
+    margin: 0.8rem;
+}
+
+#embed-recording-page textarea{
+    height: 100px;
+    font-size: 0.9rem;
+}
+
+.dlg-page{
+    margin: 0;
+}
+
+.page-note{
+    margin-top: 30px;
+    font-size: 16px;
+    color: #333;
+}
+
+.wgt-main-btn,
+.wgt-secondary-btn{
+    padding: 4% 4%;
+    font-size: 1.3rem;
+}
+
+.wgt-secondary-btn{
+    margin-left: 3%;
+}
+
+.auth_form {
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0 0 3px 0 #BBBBBB;
+    margin: 40px auto 60px;
+    /*padding: 40px 60px 60px 70px;*/
+    width: 550px;
+    min-height: 350px;
+}
+
+.dialog-title{
+    background-color: transparent;
+}
+
+.rec-wave-container{
+    margin-bottom: 35px;
+}
+
+#recording-page .mic-img{
+    margin-top: 2%;
+}
+
+#rec-details-page .dlg-msg{
+    margin: 0 0 2em;
+    margin-right: 0.8em;
+}
+
+#rec-details-page .dlg-msg a{
+    font-size: 0.9em;
+}
+
+#rec-details-page .storage-warn{
+    margin: 0 0 2%;
+}
+
+.widget-powered-by{
+    display: none;
+}
+
+.storage-warn{
+    text-align: left;
+    font-size: 1rem;
+    margin: 20px 5% 0;
+}
+
+.social-buttons a{
+    margin: 0 5px 0;
+}
+
+/*.btn-16x16 a{
+    width: 16px;
+    height: 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-16x16 .facebook{
+    background: url("/static/img/halloween/social/16x16/facebook-16x16.png") no-repeat scroll 0px 0px transparent;
+}
+
+.btn-16x16 .twitter{
+    background: url("/static/img/halloween/social/16x16/twitter-16x16.png") no-repeat scroll 0px 0px transparent;
+}
+
+.btn-16x16 .googleplus{
+    background: url("/static/img/halloween/social/16x16/google+-16x16.png") no-repeat scroll 0px 0px transparent;
+}
+
+.btn-16x16 .reddit{
+    background: url("/static/img/halloween/social/16x16/reddit-16x16.png") no-repeat scroll 0px 0px transparent;
+}
+
+.btn-16x16 .digg{
+    background: url("/static/img/halloween/social/16x16/digg-16x16.png") no-repeat scroll 0px 0px transparent;
+}
+
+
+.btn-24x24 a{
+    width: 24px;
+    height: 24px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-24x24 .facebook{
+    background: url("/static/img/halloween/social/24x24/facebook-24x24.png") no-repeat scroll 0px 0px transparent;
+}
+
+.btn-24x24 .twitter{
+    background: url("/static/img/halloween/social/24x24/twitter-24x24.png") no-repeat scroll 0px 0px transparent;
+}
+
+.btn-24x24 .googleplus{
+    background: url("/static/img/halloween/social/24x24/google+-24x24.png") no-repeat scroll 0px 0px transparent;
+}
+
+.btn-24x24 .reddit{
+    background: url("/static/img/halloween/social/24x24/reddit-24x24.png") no-repeat scroll 0px 0px transparent;
+}
+
+.btn-24x24 .digg{
+    background: url("/static/img/halloween/social/24x24/digg-24x24.png") no-repeat scroll 0px 0px transparent;
+}
+*/

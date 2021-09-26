@@ -1,0 +1,709 @@
+ 
+ /*----------- 010_main.css -----------*/
+
+
+.speakpipe-container{
+    padding: 4px;
+}
+
+#flashobj-page .nativeobj-container {
+    width: 220px;
+    height: 140px;
+}
+
+#flashobj-page ol,
+#flashobj-page li{
+    margin: 0;
+    text-align: left;
+}
+
+#flashobj-page ol{
+    margin: 0 auto 10px;
+}
+
+
+#_speakpipe_flash_recorder{
+    position: absolute;
+}
+
+.dlg-page{
+    font-size: 20px;
+    max-width: 700px;
+    margin: 11% auto 0;
+    text-align: center;
+    display: none;
+    padding-bottom: 26px;
+}
+
+.widget-page-title{
+    color: #e6501e;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 300;
+    margin: 0;
+}
+
+.dlg-msg{
+    text-align: center;
+    font-size: 0.9em;
+    margin: 0.8em;
+}
+
+.dlg-note{
+    font-size: 0.8em;
+    margin: 0 0 1%;
+    color: #444;
+}
+
+
+.dlg-buttons{
+    margin: 10% 0 0;
+}
+
+
+#subscribe-email-field{
+    font-size: 0.8em;
+    text-align: left;
+}
+
+#subscribe-email-field label{
+    position: relative;
+    top: -3px;
+}
+
+#start-recording-page .dlg-msg{
+    margin: 5% 2% 11%;
+    font-size: 1em;
+    max-height: 5rem;
+    overflow: hidden;
+}
+
+/*#recording-page{
+    margin: 2% 0 0;
+}
+*/
+#recording-page .dlg-msg{
+    margin: 0;
+    font-size: 0.8em;
+}
+
+#recording-page .mic-img{
+    width: 12%;
+    max-width: 200px;
+    margin-top: 5%;
+    fill: #e65320;
+}
+
+#recording-page .recording-duration{
+    font-size: 2em;
+}
+
+.rec-wave-container{
+    width: 260px;
+    height: 60px;
+    margin: 0 auto 5px;
+}
+
+.wgt-author-info{
+    margin: 0 5%;
+}
+
+.wgt-author-info input[type="text"]{
+    border: 1px solid #999;
+    border-radius: 4px;
+    font-size: 1em;
+    padding: 0.2em 0.4em;
+    display: block;
+    margin-bottom: 0.4em;
+    width: 100%;
+}
+
+.wgt-author-info input[type="checkbox"]{
+    margin: 0;
+}
+
+.wgt-author-info input[type="text"].value-error{
+    border-color: red;
+    background-color: #FFD5D5;
+}
+
+#subscribe-email-field{
+    display: none;
+}
+
+
+.workflow-hint{
+    font-size: 0.8em;
+    margin: 5px 0 0;
+    /*font-weight: bold;*/
+}
+
+.workflow-hint span.bullet{
+    font-size: 0.8em;
+    background-color: #ccc;
+    padding: 0.1em 0.4em;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: normal;
+}
+
+.status-msg{
+    font-size: 1.1em;
+}
+
+.progressbar{
+    /*border: 1px solid #999;*/
+    height: 30px;
+    background-color: #ddd;
+    width: 90%;
+    margin: 10% auto 15px;
+}
+
+.progressbar div{
+    background-color: #e6501e;
+    width: 30%;
+    height: 100%;
+}
+
+.progressbar span{
+    font-size: 0.8em;
+    height: auto;
+    width: auto;
+    margin: -22px 0 0;
+    display: block;
+}
+
+.fake-indicator{
+    margin: 4% 0 0;
+}
+
+.widget-powered-by {
+    bottom: 0;
+    font-size: 0.7rem;
+    padding: 0 0 1px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: #666;
+}
+
+.widget-powered-by a{
+    color: #244b84 !important;
+    text-decoration: underline;
+}
+
+
+#signup-notice-page .dlg-msg{
+    margin: 1em 0 2em;
+}
+
+
+#open-safari-page .widget-page-title{
+    margin-top: 30px;
+}
+
+.open-safari-hint{
+    margin-bottom: 20px;
+    display: none;
+}
+
+.open-safari-hint .three-bullets{
+    font-weight: bold;
+    margin: 0 5px;
+    letter-spacing: -2px;
+} 
+
+
+
+ 
+ /*----------- 020_buttons.css -----------*/
+
+
+/* remove Firefox's dotted outline */
+button::-moz-focus-inner {
+  border: 0;
+}
+
+button {
+  outline: none;
+}
+
+.wgt-main-btn,
+.wgt-secondary-btn{
+    font-size: 1.1em;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    /*width: 30%;*/
+    min-width: 145px;
+    max-width: 800px;
+    padding: 5% 1%;
+    /*padding: 1em 1em;*/
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+
+.wgt-main-btn{
+    background-color: #e6501e;
+}
+
+.wgt-main-btn:hover{
+    background-color: #cf481b;
+}
+
+.wgt-secondary-btn{
+    background-color: #eee;
+    color: #888;
+    margin-left: 4%;
+}
+
+.wgt-secondary-btn:hover{
+    background-color: #ddd;
+}
+
+.wgt-main-btn img{
+    height: 1.8em;
+    vertical-align: middle;
+    margin-right: -0.5em;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+    margin-bottom: -0.5em;
+}
+
+.wgt-main-btn .mic-icon{
+    margin-right: -0.2em;
+}
+
+.wgt-main-btn .stop-icon{
+    height: 1.2em;
+    margin: 0;
+    margin-top: -0.1em;
+}
+
+.wgt-secondary-btn .reset-icon{
+    height: 1.2em;
+    margin: 0;
+    margin-bottom: -0.2em;
+}
+
+.wgt-main-btn .send-icon{
+    height: 1.1em;
+    margin: 0;
+    margin-top: -0.1em;
+}
+
+
+#start-recording-page .wgt-main-btn{
+    min-width: 250px;
+    width: 60%;
+}
+#recording-page .mic-img{
+    height: 80px;
+} 
+
+
+
+ 
+ /*----------- 030_audio_player.css -----------*/
+
+
+.wgt-audio-player{
+    vertical-align: middle;
+    margin: 5% 5% 3%;
+    text-align: left;
+    white-space: nowrap;
+/*    position: relative;
+    width: 94%;
+*/
+}
+
+.wgt-play-pause-btn{
+    display: inline-block;
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding: 0;
+    max-width: 38px;
+}
+
+.wgt-play-pause-btn img{
+    display: none;
+    height: 45px;
+}
+
+.wgt-play-icon .wgt-play-icon-img{
+    display: block;
+}
+
+.wgt-pause-icon .wgt-pause-icon-img{
+    display: block;
+}
+
+.wgt-audio-info{
+    vertical-align: top;
+    display: inline-block;
+    /*margin-bottom: 17px;*/
+    width: 80%;
+/*    position: absolute;
+    left: 38px;
+    right: 0;
+*/
+}
+
+.wgt-audio-duration{
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.wgt-seek-bar{
+    height: 4px;
+    background-color: #eee;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.wgt-seek-bar .wgt-played{
+    width: 0;
+    height: 100%;
+    background-color: #999;
+    overflow: visible;
+}
+
+.wgt-seek-bar-circle{
+    background-color: #e6501e;
+    width: 14px;
+    height: 14px;
+    left: 13px;
+    top: -5px;
+    position: relative;
+    float: right;
+    border-radius: 50%;
+
+}
+ 
+
+
+
+ 
+ /*----------- 040_outbound_widget.css -----------*/
+
+
+.send-email-hint{
+    margin: 25px;
+}
+
+.send-email-hint a{
+    color: #666;
+    text-decoration: underline;
+}
+
+#rec-details-page .dlg-msg{
+    text-align: left;
+}
+
+#rec-details-page .dlg-msg span{
+    font-weight: normal;
+}
+
+#rec-details-page input[type="text"]{
+    display: block;
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 0.2em 0.4em;
+}
+
+#rec-details-page .dlg-msg a{
+    font-size: 0.7rem;
+    color: #666;
+    text-decoration: underline;
+}
+
+#rec-details-page a{
+    color: #666;
+    text-decoration: underline;
+}
+
+.shr-section{
+    margin: 10px 0 20px;
+}
+
+.shr-section img{
+    width: 50px;
+}
+
+.shr-section a{
+    margin-right: 5px;
+}
+
+
+#embed-recording-page .dlg-msg{
+    text-align: left;
+}
+
+#embed-recording-page textarea{
+    width: 100%;
+    height: 150px;
+    font-size: 0.7rem;
+    padding: 3px;
+} 
+
+
+
+ 
+ /*----------- 050_media_queries.css -----------*/
+
+
+/* Inline mode */
+@media (max-height: 500px) and (min-width: 450px) {
+.dlg-page{
+    margin-top: 3%;
+}
+
+.dlg-buttons{
+    margin: 3%;
+}
+
+#recording-page .mic-img{
+    width: 2.5em;
+}
+
+.wgt-main-btn, .wgt-secondary-btn{
+    padding: 3% 1%;
+}
+
+#start-recording-page .dlg-msg{
+    margin-bottom: 5%;
+}
+
+#recording-page .mic-img{
+    display: none;
+}
+
+
+} /*End of media query*/
+
+
+
+/* Main styles for the inline mode, widget has less than 270px height. */
+@media (max-height: 270px) {
+
+#flashobj-page ol{
+    display: none;
+}
+
+.dlg-page{
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.widget-page-title{
+    font-size: 1.7em;
+    /*white-space: nowrap;*/
+    font-weight: normal;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.dlg-msg{
+    font-size: 1.3em;
+    margin: 0.4em 0.1em;
+}
+
+.dlg-buttons{
+    margin: 0;
+}
+
+#start-recording-page .dlg-msg,
+.mic-img{
+    display: none;
+}
+
+.wgt-main-btn,
+.wgt-secondary-btn{
+    padding: 0.5em 0.5em;
+    /*width: 8%;*/
+    font-size: 1.5em;
+}
+
+.wgt-secondary-btn{
+    margin-left: 1%;
+}
+
+#start-recording-page .wgt-main-btn{
+    max-width: 280px;
+    min-width: 190px;
+    padding: 0.8em 0.1em;
+/*    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+*/
+}
+
+#start-recording-page .dlg-note{
+    margin: 0.5em 0 0.3em;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+#recording-page .dlg-msg{
+    font-size: 1em;
+}
+
+.workflow-hint{
+    font-size: 1em;
+}
+
+.rec-wave-container{
+    height: 30px;
+    /*width: 100%;*/
+    /*max-width: 260px;*/
+    /*margin-bottom: 5px;*/
+}
+
+
+.progressbar{
+    margin: 5% auto 2%;
+    max-width: 600px;
+}
+
+.status-msg{
+    font-size: 1.7em;
+}
+
+.wgt-audio-player{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.wgt-play-pause-btn img{
+    height: 2.7em;
+}
+
+
+#subscribe-email-field{
+    font-size: 1em;
+    white-space: nowrap;
+}
+
+.wgt-author-info{
+    /*display: inline-block;*/
+    width: 70%;
+    margin: 0 0 0;
+    float: left;
+    overflow: hidden;
+}
+
+.wgt-author-info input[type="text"]{
+    font-size: 1.5em;
+}
+
+#send-recording-page .dlg-buttons{
+    /*display: inline-block;*/
+    width: 22%;
+    vertical-align: middle;
+    font-size: 0.8em;
+    float: left;
+    margin-left: 5px;
+}
+
+#recording-warn-page .dlg-msg{
+    font-size: 1em;
+}
+
+.wgt-author-info input[type="text"]{
+    margin: 0;
+    margin-bottom: 2px;
+
+}
+
+.wgt-author-info input[type="text"]:first-child{
+    margin-bottom: 6px;
+}
+
+#send-recording-page .dlg-buttons button{
+    margin-bottom: 5%;
+}
+
+
+#send-recording-page .dlg-buttons button{
+    padding: 0.8em 0;
+}
+
+.widget-powered-by{
+    font-size: 0.55rem;
+}
+
+
+#subscribe-email-field label{
+    top: -4px;
+}
+
+
+} /*End of media query*/
+
+
+
+@media (max-height: 270px) and (max-width: 400px) {
+    .dlg-buttons button{
+        min-width: 80px;
+        padding: 0.5em 0.5em;
+    }
+
+    .dlg-buttons button img{
+        display: none;
+    }
+
+    .widget-page-title{
+        max-height: 2.6em;
+        overflow: hidden;
+    }
+
+} /*End of media query*/
+
+
+@media (max-height: 270px) and (max-width: 300px) {
+    .wgt-author-info{
+        width: 70%
+    }
+
+    #recording-page button{
+        min-width: 100px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .dlg-msg{
+        font-size: 1.1em;
+    }
+
+    .rec-wave-container{
+        max-width: 210px;
+    }
+
+
+    #start-recording-page .wgt-main-btn{
+        width: 90%;
+    }
+
+    #recording-warn-page .dlg-msg{
+        max-height: 70px;
+    }
+
+
+} /*End of media query*/
+
+
+@media (max-height: 270px) and (max-width: 250px) {
+    .dlg-buttons button{
+        min-width: 60px;
+    }
+    #recording-warn-page .dlg-msg{
+        max-height: 50px;
+    }
+
+} /*End of media query*/
+ 
+
+
+
